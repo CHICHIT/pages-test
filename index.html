@@ -19,7 +19,7 @@
 
 <body style="background-color: #000000;margin: 0;padding: 0;">
   <header>
-    <h1 class="title">메인</h1>
+    <h1 class="title">Home</h1>
   </header>
   
   <main style="background-color: #241D27;">
@@ -28,7 +28,7 @@
       <img src="ikmyong.png" alt="이의섭 프로필 사진" />
     </div>
     <div class="intro-comment">
-      <h4 class="comment">익명의 개발자 이의섭입니다.</h4>
+      <h4 class="comment">내 짧은 코드가 누군가에게 도움이 되기를 바라는 <br><br>익명의 개발자 이의섭입니다.</h4>
   </div>
 </section>
 <h2 class="title">기술 스택</h2>
@@ -94,19 +94,34 @@
     </section> -->
 <h2 class="title">프로젝트</h2>
     <section class="project-container">
-        <article class="project-item">
+        <article class="project-item"onclick="window.open('https:github.com/CanSingTone')">
             <img src="cansingtone.png" alt="대체 텍스트">
-            <p class="project-caption">노래방 노래추천 어플 Cansingtone</p>
+            <p class="project-caption">노래방 노래추천 앱 Cansingtone</p>
         </article>
-        <article class="project-item">
+        <article class="project-item"onclick="window.open('https:github.com/dyun0726/Slime_Danmaku')">
             <img src="slime.png" alt="대체 텍스트">
-            <p class="project-caption">2d 횡스크롤 게임 Slime Savior</p>
+            <p class="project-caption">2d 플랫포머 탄막 게임 Slime Savior</p>
         </article>
       
     </section>
   </main>
   <footer>
-  <nav class="social-links">
+  
+  <section class="namecard-container">
+    <article class="namecard">
+        <ul>
+          <li class="info">2017.03~2025.02 중앙대학교 컴퓨터공학과</li>
+          <li class="info">2025.07~ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우리FISA아카데미 클라우드서비스개발 과정 </li>
+          </ul>
+    </article>   
+    <article class="namecard">
+        <ul>
+          <li class="info">메일 : beflylee@naver.com</li>
+          <li class="info">연락처 : 010-3593-3065</li>
+          </ul>
+    </article>    
+  </section>
+<nav class="social-links">
     <a href="https://github.com/CHICHIT" target="_blank" aria-label="GitHub">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="icon"style="filter: invert(100%);" />
     </a>
@@ -114,13 +129,6 @@
       <img src="/img/Discord.svg" alt="Discord" class="icon" />
     </a>
   </nav>
-
-  <address class="namecard">
-      <ul>
-        <li class="info">메일 : beflylee@naver.com</li>
-        <li class="info">연락처 : 010-3593-3065</li>
-        </ul>
-    </address>
 </footer>
   <button id="scrollToTopBtn" class="scroll-top-btn">↑ 맨 위로</button>
   <script src="script.js"></script>

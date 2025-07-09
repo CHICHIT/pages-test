@@ -16,8 +16,8 @@ scrollBtn.addEventListener('click', () => {
   });
 });
 
- window.addEventListener('load', () => {
-    const image = document.querySelector('.intro-image img');
-    image.style.opacity = '1';
-    image.style.transform = 'translateY(0)';
-  });
+//  window.addEventListener('load', () => {
+//     const image = document.querySelector('.intro-image img');
+//     image.style.opacity = '1';
+//     image.style.transform = 'translateY(0)';
+//   });
