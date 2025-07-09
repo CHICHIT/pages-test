@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>프로필페이지</title>
+ <!-- SUIT (타이틀용) -->
+  <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+
+  <!-- Pretendard (본문용) -->
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/pretendard.css" rel="stylesheet">
+
+
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,13 +23,18 @@
   </header>
   
   <main style="background-color: #241D27;">
-    <section>
-      <h4 class="title" style="padding-top: 20px;">개발자 이의섭입니다.</h4>
-    </section>
+    <section class="intro-section">
+    <div class="intro-image">
+      <img src="ikmyong.png" alt="이의섭 프로필 사진" />
+    </div>
+    <div class="intro-comment">
+      <h4 class="comment">익명의 개발자 이의섭입니다.</h4>
+  </div>
+</section>
 <h2 class="title">기술 스택</h2>
-    <section class="container">
+    <section class="stack_container">
       
-      <article class="item">
+      <!-- <article class="item">
         <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
       </article>
       <article class="item">
@@ -33,6 +45,46 @@
       </article>
       <article class="item">
         <img src="https://img.shields.io/badge/unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black">
+      </article> -->
+      <article class="stack_item">
+        <img src="./img/Unity-Dark.svg" viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/Flutter-Light.svg"viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/Java-Light.svg"viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/CPP.svg"viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      
+    </section>
+    <section class="stack_container">
+      
+      <!-- <article class="item">
+        <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+      </article>
+      <article class="item">
+        <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+      </article>
+      <article class="item">
+        <img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+      </article>
+      <article class="item">
+        <img src="https://img.shields.io/badge/unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black">
+      </article> -->
+      <article class="stack_item">
+        <img src="./img/HTML.svg" viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/CSS.svg"viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/JavaScript.svg"viewBox="0 0 300 300" width="150" height="150">
+      </article>
+      <article class="stack_item">
+        <img src="./img/React-Dark.svg"viewBox="0 0 300 300" width="150" height="150">
       </article>
       
     </section>
@@ -63,6 +115,6 @@
       </ul>
     </address>
   </footer>
-</body>
-
-</html>
+  <button id="scrollToTopBtn" class="scroll-top-btn">↑ 맨 위로</button>
+  <script src="script.js"></script>
+</body></html>
